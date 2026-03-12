@@ -1,7 +1,7 @@
 {
   "name": "deepseek-llm-skill",
   "version": "1.0.0",
-  "description": "A Claude Code skill for running DeepSeek V3.2 LLM via Atlas Cloud API",
+  "description": "An AI Agent Skill for running DeepSeek V3.2 LLM via Atlas Cloud API — works with Claude Code, Cursor, OpenAI Codex, GitHub Copilot, Gemini CLI, and more",
   "main": "dist/cli.js",
   "bin": {
     "deepseek": "dist/cli.js"
@@ -20,7 +20,16 @@
     "reasoning",
     "atlas-cloud",
     "claude-code",
-    "skill"
+    "skill",
+    "agent-skill",
+    "cursor",
+    "codex",
+    "copilot",
+    "gemini-cli",
+    "windsurf",
+    "opencode",
+    "kiro",
+    "ai-agent"
   ],
   "author": "thoughtincode",
   "license": "MIT",

@@ -1,10 +1,10 @@
 # DeepSeek LLM Skill
 
-A Claude Code skill for running DeepSeek V3.2 LLM via Atlas Cloud API — coding, reasoning, analysis at $0.26/M input tokens. Access DeepSeek's powerful language models directly from your terminal with streaming support, file context injection, and dedicated code analysis modes.
+An AI Agent Skill for running DeepSeek V3.2 LLM via Atlas Cloud API — coding, reasoning, analysis at $0.26/M input tokens. Access DeepSeek's powerful language models directly from your terminal with streaming support, file context injection, and dedicated code analysis modes.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue.svg)](https://www.typescriptlang.org/)
-[![Claude Code](https://img.shields.io/badge/Claude_Code-Skill-purple.svg)](https://claude.ai/code)
+[![AI Agent Skill](https://img.shields.io/badge/AI_Agent-Skill-purple.svg)](https://github.com/thoughtincode/deepseek-llm-skill)
 
 ---
 
@@ -20,7 +20,7 @@ A Claude Code skill for running DeepSeek V3.2 LLM via Atlas Cloud API — coding
   - [Code Mode](#code-mode)
   - [File Context](#file-context)
   - [System Prompts](#system-prompts)
-- [Claude Code Integration](#claude-code-integration)
+- [Agent Skill Integration](#agent-skill-integration)
 - [Use Cases](#use-cases)
 - [API Reference](#api-reference)
 - [Configuration](#configuration)
@@ -40,7 +40,7 @@ A Claude Code skill for running DeepSeek V3.2 LLM via Atlas Cloud API — coding
 - **164K Context Window** — Process massive documents, entire codebases, or long conversation histories
 - **OpenAI-Compatible API** — Drop-in replacement using the familiar chat completions API format
 - **File Context Injection** — Read local files and inject them as context for code review, analysis, or Q&A
-- **Claude Code Skill** — Seamless integration with Claude Code for AI-assisted development workflows
+- **Agent Skill** — Works with 15+ AI coding agents including Claude Code, Cursor, OpenAI Codex, GitHub Copilot, Gemini CLI, Windsurf, OpenCode, Kiro, and more
 - **Multiple Model Variants** — Choose between speed, capability, and cost across 7 model options
 - **Temperature Control** — Fine-tune response creativity from deterministic (0.0) to highly creative (2.0)
 
@@ -210,15 +210,15 @@ deepseek "Analyze this dataset" --model deepseek-ai/deepseek-v3.2-fast --file ./
 
 ---
 
-## Claude Code Integration
+## Agent Skill Integration
 
-This tool is designed to work as a **Claude Code skill**. Once installed and linked, Claude Code can invoke it directly when you ask for code analysis, review, or DeepSeek-powered tasks.
+This tool is designed to work as an **AI agent skill** compatible with 15+ coding agents including Claude Code, Cursor, OpenAI Codex, GitHub Copilot, Gemini CLI, Windsurf, OpenCode, Kiro, and more. Once installed and linked, your AI agent can invoke it directly when you ask for code analysis, review, or DeepSeek-powered tasks.
 
 ### How It Works
 
 1. Install the skill (see [Installation](#installation))
-2. Claude Code reads the `CLAUDE.md` file to understand available commands
-3. When you ask for code review, analysis, or invoke DeepSeek, Claude constructs and runs the `deepseek` command
+2. Your AI agent reads the skill configuration file (e.g., `CLAUDE.md`, `.cursorrules`, or equivalent) to understand available commands
+3. When you ask for code review, analysis, or invoke DeepSeek, the agent constructs and runs the `deepseek` command
 
 ### Example Conversations
 
@@ -582,7 +582,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 - [DeepSeek](https://deepseek.com) for the groundbreaking open-weight language models
 - [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) for the API infrastructure
-- [Claude Code](https://claude.ai/code) for the skill integration framework
+- [Claude Code](https://claude.ai/code) for the skill integration framework, and the broader AI coding agent ecosystem for cross-platform compatibility
 
 ---
 
