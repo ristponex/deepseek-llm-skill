@@ -1,0 +1,32 @@
+{
+  "name": "deepseek-llm-skill",
+  "version": "1.0.0",
+  "description": "A Claude Code skill for running DeepSeek V3.2 LLM via Atlas Cloud API",
+  "main": "dist/cli.js",
+  "bin": {
+    "deepseek": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/cli.js",
+    "dev": "ts-node src/cli.ts"
+  },
+  "keywords": [
+    "deepseek",
+    "llm",
+    "ai",
+    "chat",
+    "code-review",
+    "reasoning",
+    "atlas-cloud",
+    "claude-code",
+    "skill"
+  ],
+  "author": "thoughtincode",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  }
+}
