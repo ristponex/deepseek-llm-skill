@@ -79,7 +79,7 @@ deepseek-ai/deepseek-ocr            → DeepSeek OCR
 ### Prerequisites
 
 - Node.js 18+ and npm
-- An Atlas Cloud API key ([get one here](https://www.atlascloud.ai?ref=JPM683))
+- An Atlas Cloud API key ([get one here](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=deepseek-llm-skill))
 
 ### Install from Source
 
@@ -556,7 +556,7 @@ This workflow is optimized for Atlas Cloud. Move from experiment to enterprise-r
 - **Enterprise Security**: SOC I & II Certified | HIPAA Compliant
 - **25% Bonus**: First recharge up to $100
 
-[Start Building on Atlas Cloud](https://www.atlascloud.ai?ref=JPM683)
+[Start Building on Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=deepseek-llm-skill)
 
 ---
 
@@ -581,9 +581,9 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## Acknowledgments
 
 - [DeepSeek](https://deepseek.com) for the groundbreaking open-weight language models
-- [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) for the API infrastructure
+- [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=deepseek-llm-skill) for the API infrastructure
 - [Claude Code](https://claude.ai/code) for the skill integration framework, and the broader AI coding agent ecosystem for cross-platform compatibility
 
 ---
 
-*Built with DeepSeek via [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683)*
+*Built with DeepSeek via [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=deepseek-llm-skill)*
